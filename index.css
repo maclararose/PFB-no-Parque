@@ -5,24 +5,35 @@
   padding: 0;
 }
 
-body {
-  background-color: #f0f0f0;
-}
-
 #img-banner, header {
   width: 100%;
+  background-color: #0191A4;
 }
 
 nav {
   background-color: #0191A4;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
 }
 
 a {
+  text-decoration: none;
+  font: 1.3em 'Poppins', sans-serif;
+}
+
+.menu {
   color: #FFFFFF;
+  margin-right: 40px;
+}
+
+main, #pag-beneficios, #modalidades, #treinos {
+  padding: 80px;
 }
 
 main {
   background-color: #FFFFFF;
+  padding: 80px;
 }
 
 h1 {
@@ -30,6 +41,7 @@ h1 {
   text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 3em;
+  margin-bottom: 20px;
 }
 
 p {
@@ -40,12 +52,44 @@ p {
   line-height: 2em;
 }
 
+#pag-beneficios {
+  background-color: #0191A4;
+}
+
+#pag-beneficios h2, #pag-beneficios p {
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+#pag-beneficios ul {
+  list-style-position: inside;
+  list-style: circle;
+  margin-left: 70px;
+}
+
+#pag-beneficios li {
+  color: #FFF;
+  font: 1.5em 'Poppins', sans-serif;
+}
+
 h2 {
   color: #3F51B5;
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
 }
 
+#modalidades {
+  background-color: #EEE;
+}
+
 .img-card {
   width: 380;
+}
+
+#treinos {
+  background-color: #FFF;
+}
+
+footer {
+  background-color: #212121;
 }
