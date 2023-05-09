@@ -9,18 +9,27 @@ body {
   background-color: #f0f0f0;
 }
 
-img {
+#img-banner, header {
   width: 100%;
 }
 
+nav {
+  background-color: #0191A4;
+}
+
 a {
-  text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  background-color: #FFFFFF;
 }
 
 h1 {
   color: #3F51B5;
   text-align: center;
   font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
 }
 
 p {
@@ -29,4 +38,14 @@ p {
   font: 18px 'Poppins', sans-serif;
   font-weight: 300;
   line-height: 2em;
+}
+
+h2 {
+  color: #3F51B5;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+}
+
+.img-card {
+  width: 380;
 }
