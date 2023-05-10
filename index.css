@@ -70,6 +70,7 @@ p {
 #pag-beneficios li {
   color: #FFF;
   font: 1.5em 'Poppins', sans-serif;
+  line-height: 2em;
 }
 
 h2 {
@@ -82,8 +83,40 @@ h2 {
   background-color: #EEE;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #FFF;
+  width: 24%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
 .img-card {
-  width: 380;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.texto-card {
+  padding: 20px;
+}
+
+h3 {
+  color: #3F51B5;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.7em;
+  margin-bottom: 14px;
+}
+
+.texto-card p {
+  text-align: center;
+  font: 1em 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 #treinos {
