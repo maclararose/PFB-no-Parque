@@ -22,9 +22,22 @@ a {
   font: 1.3em 'Poppins', sans-serif;
 }
 
+.a-menu {
+  margin-right: 40px;
+}
+
+
 .menu {
   color: #FFFFFF;
   margin-right: 40px;
+}
+
+.a-menu:link, .a-menu:visited {
+  color: #FFF;
+}
+
+.a-menu:hover, .a-menu:active {
+  color: #3F51B5;
 }
 
 main, #pag-beneficios, #modalidades, #treinos, #pag-agendamento {
