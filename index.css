@@ -196,3 +196,31 @@ input, select, textarea, fieldset {
   padding: 6px;
   box-sizing: border-box;
 }
+
+.item-form {
+  width: 32%;
+}
+
+form .container {
+  justify-content: space-between;
+}
+
+input[type= "radio"], input[type = "checkbox"] {
+  width: 30px;
+  margin-left: 50px;
+}
+
+input[type = "submit"], input[type="reset"] {
+  background-color: #8BC34A;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+  width: 48%;
+}
+
+input[type="reset"] {
+  background-color: #F47E7E;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+}
