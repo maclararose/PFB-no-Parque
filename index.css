@@ -32,11 +32,11 @@ a {
   margin-right: 40px;
 }
 
-.a-menu:link, .a-menu:visited {
+.menu:link, .menu:visited {
   color: #FFF;
 }
 
-.a-menu:hover, .a-menu:active {
+.menu:hover, .menu:active {
   color: #3F51B5;
 }
 
